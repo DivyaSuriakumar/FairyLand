@@ -1,0 +1,128 @@
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+  }
+  *{
+    padding: 0;
+    margin: 0;
+  }
+  
+  .contact{
+    position: relative;
+    opacity: 0.75;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .contact{
+    background-image: url("aboutusimg/contact.jpg");
+    height: 550px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .contact-us{
+    text-align: center;
+    padding: 120px;
+    color: hsl(0, 0%, 100%);
+    font-size: 40px;
+    position: relative;
+    bottom: -120px;
+  }
+  
+  .contact-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  .contact-hr{
+    width: 100px;
+    border: 1px solid #FF8E9E;
+    margin-bottom: 30px;
+  }
+  
+  .contact-det{
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+  
+  .c-form{
+    margin-right: 50px;
+    margin-left: 100px;
+    border: 1px solid rgb(248, 248, 248);
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 50px;
+    padding-bottom: 60px;
+    background-color: white;
+    box-shadow: 5px 10px 18px #FFC6D3;
+  }
+  
+  .det-fairy{
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+  
+  .ask{
+    font-size: 30px;
+    color: #FF8E9E;
+  }
+  
+  i{
+    margin-right: 18px;
+    color: #FF8E9E;
+  }
+  
+  .contact-span{
+    font-size: 18px;
+  }
+  
+  .c-email, .c-subject{
+    padding-right: 250px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    font-size: 17px;
+    margin-bottom: 7px;
+    background-color: #fafafa;
+    border: 1px solid grey;
+  }
+  
+  .c-email:focus, .c-subject:focus, .c-msg:focus{
+    border: 2px solid #FFCAC8;
+    outline: none;
+  }
+
+  .c-msg{
+    padding-right: 263px;
+    padding-top: 5px;
+    padding-bottom: 80px;
+    padding-left: 5px;
+    font-size: 17px;
+    background-color: #fafafa;
+    border: 1px solid grey;
+    margin-bottom: 7px;
+  }
+  
+  .c-btn{
+    text-decoration: none;
+    background-color: #FF8E9E;
+    text-align: center;
+    border: white;
+    align-items: center;
+    font-size: 17px;
+    padding: 15px 20px;
+    border-radius: 10px ;
+    margin-top: 0;
+    color: white;
+  }

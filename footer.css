@@ -1,0 +1,39 @@
+
+ footer{
+    color: #fff;
+    font-size:95%;
+    line-height: 20px;
+    width:100%;
+    background: linear-gradient(to right,#000000,#424141);
+    margin-top: 95px;
+    align-items: left;
+    overflow-x: hidden;
+    overflow-y: auto;
+    height:250px;
+    
+} 
+.logo{
+    position: relative;
+    bottom:15px;
+}
+.col1{
+    padding: 15px;
+    float: left;
+    margin-left: 25px;
+    margin-right: 20px;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    
+}
+.footsts{
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 3px;
+    margin-top: 5px;
+    font-size: large;
+}
+.footh{
+    padding-bottom: 10px;
+    font-size: x-large;
+}
+
